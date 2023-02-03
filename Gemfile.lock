@@ -110,7 +110,7 @@ GEM
     loofah (2.19.1)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
-    mail (2.8.0.1)
+    mail (2.8.1)
       mini_mime (>= 0.1.1)
       net-imap
       net-pop
@@ -176,7 +176,7 @@ GEM
     reline (0.3.2)
       io-console (~> 0.5)
     rexml (3.2.5)
-    rubocop (1.43.0)
+    rubocop (1.44.1)
       json (~> 2.3)
       parallel (~> 1.10)
       parser (>= 3.2.0.0)
