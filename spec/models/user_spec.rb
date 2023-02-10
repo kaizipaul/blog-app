@@ -7,12 +7,12 @@ RSpec.describe User, type: :model do
 
   it 'name must not be blank' do
     @user.name = nil
-    expect(@user).to be_valid
+    expect(@user).to_not be_valid
   end
 
   it 'check if posts counter is an integer' do
     @user.post_counter = 'ham'
-    expect(@user).to be_valid
+    expect(@user).to_not be_valid
   end
 
   it 'checks if bio is present' do
