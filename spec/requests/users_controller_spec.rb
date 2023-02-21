@@ -18,9 +18,9 @@ RSpec.describe 'Users', type: :request do
   context 'user show action' do
     before :each do
       @user = User.create(name: 'Lauren',
-         photo: 'https://unsplash.com/photos/i2hoD-C2RUA',
-          bio: 'Engineer from England',
-           post_counter: 1)
+                          photo: 'https://unsplash.com/photos/i2hoD-C2RUA',
+                          bio: 'Engineer from England',
+                          post_counter: 1)
       get user_path(@user.id)
     end
 

@@ -4,7 +4,7 @@ RSpec.describe 'Post Page Index', type: :feature do
   before :each do
     @kyle = User.create(
       name: 'Kyle',
-      photo:  'https://unsplash.com/photos/F_-0BxGuVvo',
+      photo: 'https://unsplash.com/photos/F_-0BxGuVvo',
       bio: 'Artist',
       post_counter: 1
     )
