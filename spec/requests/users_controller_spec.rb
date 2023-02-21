@@ -13,15 +13,14 @@ RSpec.describe 'Users', type: :request do
     it 'should check if correct index template is rendered' do
       expect(response).to render_template(:index)
     end
-
-    it 'should check if response body includes correct placeholder text' do
-      expect(response.body).to include('This is the Users index page')
-    end
   end
 
   context 'user show action' do
     before :each do
-      @user = User.create(name: 'Lauren', photo: 'photo', bio: 'Engineer from England', post_counter: 1)
+      @user = User.create(name: 'Lauren',
+         photo: 'https://unsplash.com/photos/i2hoD-C2RUA',
+          bio: 'Engineer from England',
+           post_counter: 1)
       get user_path(@user.id)
     end
 
@@ -31,10 +30,6 @@ RSpec.describe 'Users', type: :request do
 
     it 'should check if correct index template is rendered' do
       expect(response).to render_template(:show)
-    end
-
-    it 'should check if response body includes correct placeholder text' do
-      expect(response.body).to include('This is the Users show page')
     end
   end
 end
