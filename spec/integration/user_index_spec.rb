@@ -31,5 +31,6 @@ RSpec.describe 'User Page Index', type: :feature do
 
   it 'shows the users posts' do
     expect(page).to have_content('Number of posts: 3')
+    expect(page).to have_content('Number of posts: 0')
   end
 end

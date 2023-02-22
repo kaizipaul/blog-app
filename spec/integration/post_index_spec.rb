@@ -50,6 +50,10 @@ RSpec.describe 'Post Page Index', type: :feature do
     expect(page).to have_content('Likes: 0')
   end
 
+  it 'shows section for pagination' do
+    expect(page).to have_content('Pagination')
+  end
+
   it 'redirects to posts show page' do
     click_on 'Hello'
     expect(page).to have_current_path user_post_path(@kyle.id, @post.id)
