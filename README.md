@@ -48,6 +48,16 @@
 ### ERD Diagram <a name="diagram">
 ![Preview](./app/assets/images/blog_app_erd.png)
 
+<!-- Features -->
+
+### Key Features <a id="key-features"></a>
+
+- **User Sign_up and Sign_in**
+- **User can Comment and Like**
+- **User can Delete Comment**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- GETTING STARTED -->
 
@@ -110,10 +120,8 @@ Example command:
 
 > Features to add to the project.
 
-- [ ] **[ Validations, Model specs, and n+1 problems ]**
-- [ ] **[ Add Devise ]**
-- [ ] **[ Add authorization rules ]**
-- [ ] **[ Integration specs for Views ]**
+- [ ] **[ Add Api End points ]**
+
 
 
 
@@ -137,6 +145,15 @@ If you like this project...
 
 <p align="right"><a href="#readme-top">back to top</a></p>
 
+<!-- ACKNOWLEDGEMENT -->
+
+## 🙏🏽Acknowledgements <a name="acknowledgement"></a>
+
+I'd like to acknowledge Microverse Inc. for guidance through this project.
+
+<p align="right"><a href="#readme-top">back to top</a></p>
+
+
 <!-- FAQ (optional) -->
 
 ## ❓ FAQ <a name="faq"></a>
@@ -147,7 +164,7 @@ If you like this project...
 
 - **How to use this project?**
 
-  - check the [Getting Started](#getting-started) section to have a complete guid on how to setup and run teh project.
+  - check the [Getting Started](#getting-started) section to have a complete guid on how to setup and run the project.
 
 <p align="right"><a href="#readme-top">back to top</a></p>
 
