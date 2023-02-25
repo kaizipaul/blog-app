@@ -57,6 +57,9 @@ gem 'bcrypt', '~> 3.1', '>= 3.1.18'
 # api auth
 gem 'jwt'
 
+# add rswag
+gem 'rswag'
+
 # Use Sass to process CSS
 # gem "sassc-rails"
 
